@@ -54,7 +54,7 @@ def load_dataset( store_id ):
 
 def predict( data ):
     # API Call
-    url = 'https://rossmann-model-testjl.herokuapp.com/rossmann/predict'
+    url = 'https://jl-rossmann-bot.herokuapp.com/rossmann/predict'
     header = {'Content-type': 'application/json' }
     data = data
 
