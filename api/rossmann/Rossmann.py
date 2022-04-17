@@ -8,12 +8,12 @@ import datetime
 class Rossmann (object ): 
     def __init__(self):
         state = 1
-        self.competition_distance_scaler = pickle.load(open('/Users/jefersonlima/Desktop/Rossmann Store Sales2/parameter/competition_distance_scaler.pkl', 'rb') ) 
-        self.competition_time_month_scaler = pickle.load(open('/Users/jefersonlima/Desktop/Rossmann Store Sales2/parameter/competition_time_month_scaler.pkl', 'rb') ) 
-        self.promo_time_week_scaler = pickle.load(open('/Users/jefersonlima/Desktop/Rossmann Store Sales2/parameter/promo_time_week_scaler.pkl', 'rb') ) 
-        self.year_scaler = pickle.load(open('/Users/jefersonlima/Desktop/Rossmann Store Sales2/parameter/year_scaler.pkl', 'rb') ) 
-        self.store_type_scaler = pickle.load(open('/Users/jefersonlima/Desktop/Rossmann Store Sales2/parameter/store_type_scaler.pkl', 'rb') )
-        self.year_scaler = pickle.load(open('/Users/jefersonlima/Desktop/Rossmann Store Sales2/parameter/year_scaler.pkl', 'rb') ) 
+        self.competition_distance_scaler = pickle.load(open('/Users/jefersonlima/GitHub/Rossmann-Store-Prediction/WebApp/parameter/competition_distance_scaler.pkl', 'rb') ) 
+        self.competition_time_month_scaler = pickle.load(open('/Users/jefersonlima/GitHub/Rossmann-Store-Prediction/WebApp/parameter/competition_time_month_scaler.pkl', 'rb') ) 
+        self.promo_time_week_scaler = pickle.load(open('/Users/jefersonlima/GitHub/Rossmann-Store-Prediction/WebApp/parameter/promo_time_week_scaler.pkl', 'rb') ) 
+        self.year_scaler = pickle.load(open('/Users/jefersonlima/GitHub/Rossmann-Store-Prediction/WebApp/parameter/year_scaler.pkl', 'rb') ) 
+        self.store_type_scaler = pickle.load(open('/Users/jefersonlima/GitHub/Rossmann-Store-Prediction/WebApp/parameter/store_type_scaler.pkl', 'rb') )
+        self.year_scaler = pickle.load(open('/Users/jefersonlima/GitHub/Rossmann-Store-Prediction/WebApp/parameter/year_scaler.pkl', 'rb') ) 
 
         
     def data_cleaning(self,df1):
