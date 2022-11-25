@@ -4,6 +4,17 @@
 
 This repository contains an end-to-end project for forecasting drugstore sales applying linear and non-linear regression.<br>
 
+### Disclaimer 1
+
+This is a fictional context created for portfolio. All characters were created as well as the business problem.
+### Disclaimer 2
+
+The data were published in [kaggle](https://www.kaggle.com/c/rossmann-store-sales/overview).
+
+### Disclaimer 3
+
+The project is part of [Comunidade DS](https://sejaumdatascientist.com/inscricao-lives-comunidade-ds).
+
 ## Machine Learning Project on Regression for Drugstore Sales Forecasting
 
 The aim of this project is:
@@ -89,6 +100,11 @@ The Strategy to solve this challenge was applying CRISP-DM methodology consideri
  <br>
  
  ## 5.Best Insights
+### 5.1 - Stores with closer competitors should sell less.
+**False, Stores with closer competitors sell more**
+
+### 5.2 - Stores should sell less on weekends.
+**True, stores sell less on weekends**
  
  ## 6. Machine Learning Models Applied and Performance
 
