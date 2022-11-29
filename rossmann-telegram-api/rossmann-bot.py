@@ -116,8 +116,8 @@ def get_help(greeting=True):
     msg_help_g = ''
     if greeting:
 
-        linkedin_link = 'https://linkedin.com/in/jeffslima'
-        github_link = 'https://github.com/jeffslima'
+        linkedin_link = 'https://www.linkedin.com/in/jefersonslima/'
+        github_link = 'https://github.com/jefslima'
 
         msg_help_g  = '''Hello!
 Welcome to Rossmann Stores Sales Prediction!
@@ -241,7 +241,7 @@ def index():
             # chart definitions
             x_ax = 'store'
             y_ax = 'prediction'
-            chart_title = 'The Rossmann Store highest Predictions'
+            chart_title = 'The Rossmann Store Highest Predictions'
             x_lbl = 'Store ID'
             y_lbl = 'Prediction for next 6 weeks (Unit: K)'
             image_path = './top5_prediction.png'
