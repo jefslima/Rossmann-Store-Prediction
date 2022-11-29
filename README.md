@@ -149,3 +149,8 @@ So, after choosing the final model, it was submitted to the fine-tuning phase re
 - Click on the icon below to access the Sales Forecasting <br>
 
 [<img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>](https://t.me/JeffslimaBot)
+
+## 10. Conclusion
+
+Considering the first CRISP-DS cycle, the final model presented a usefull performance, considering the MAPE (Mean Absolute Percentage Error) of 0.10. However, for some stores, higher MAPE values were observed, but this is a point that could be improved in the next CRISP cycle.
+
