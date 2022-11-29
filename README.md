@@ -102,9 +102,13 @@ The Strategy to solve this challenge was applying CRISP-DM methodology consideri
  ## 5.Best Insights
 ### 5.1 - Stores with closer competitors should sell less.
 **False, Stores with closer competitors sell more**
+<img src="img/Lojas com competidores mais próximos deveriam vender menos.png"/>
 
 ### 5.2 - Stores should sell less on weekends.
 **True, stores sell less on weekends**
+
+<img src="img/Lojas deveriam vender menos aos finais de semana..png"/>
+
  
  ## 6. Machine Learning Models Applied and Performance
 
@@ -113,8 +117,40 @@ The following machine learning models were trained:
   * Average model (baseline);
   * Linear Regression,
   * Linear Regression Regularized (Lasso), 
-  * Random Forest Regressor
+  * Random Forest Regressor,
   * XGBoost Regressor
    
 
 All the models applied went through the Cross Validation stage to verify the real performance.
+
+<img src="img/Single Performace.png"/> <br>
+
+
+## 7. Machine Learning Performance after Hyperparemeter Fine Tuning
+
+Due to server space, I decided to choose XGBoost instead of Random Forest. <br>
+So, after choosing the final model, it was submitted to the fine-tuning phase resulting in a good performance. <br>
+
+<img src="img/Finalmodel.jpeg"/>
+
+<br>
+
+## 8. Model performance
+**Top 5 predictions**
+
+
+## 9. Getting the Prediction with Telegram Bot
+
+### **Pre-requirement**
+
+- Sign up on Telegram and Create an account.
+
+### **Telegram**
+- Click on the icon below to access the Sales Forecasting <br>
+
+[<img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>](https://t.me/JeffslimaBot)
+
+## 10. Conclusion
+
+Considering the first CRISP-DS cycle, the final model presented a usefull performance, considering the MAPE (Mean Absolute Percentage Error) of 0.10. However, for some stores, higher MAPE values were observed, but this is a point that could be improved in the next CRISP cycle.
+
