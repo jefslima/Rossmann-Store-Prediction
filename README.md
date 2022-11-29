@@ -136,7 +136,8 @@ So, after choosing the final model, it was submitted to the fine-tuning phase re
 <br>
 
 ## 8. Model performance
-**Top 5 predictions**
+
+<img src="img/Highest Predictions.jpeg"/>
 
 
 ## 9. Getting the Prediction with Telegram Bot
@@ -149,6 +150,8 @@ So, after choosing the final model, it was submitted to the fine-tuning phase re
 - Click on the icon below to access the Sales Forecasting <br>
 
 [<img alt="Telegram" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white"/>](https://t.me/JeffslimaBot)
+
+<img src="img/telegram.png"/>
 
 ## 10. Conclusion
 
