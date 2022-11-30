@@ -132,7 +132,7 @@ Through this telegram bot you will access sales preditions of Rossmann Stores.
 <b><i>top predictions</i></b> : a bar graph with the top 5 predictions
 <b><i>n</i></b> : prediction for a single store, where n is the id of a store
 <b><i>n,n,n,n</i></b> : predictions for a list of stores, where n is the id of a store
-Stay hungry stay foolish!'
+Stay hungry stay foolish!
    '''
     
     return msg_help
