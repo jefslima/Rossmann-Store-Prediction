@@ -9,7 +9,7 @@ from flask import Flask, request, Response
 
 
 #constants
-TOKEN ='5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg'
+TOKEN ='5608377640:AAGMdLH4JnjIZqTkA8uARNpG0c0opoh3nf8'
 
 #info about the bot
 #https://api.telegram.org/bot5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg/getMe
