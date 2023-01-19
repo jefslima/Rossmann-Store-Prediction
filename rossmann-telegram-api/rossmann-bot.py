@@ -20,8 +20,8 @@ TOKEN ='5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg'
 #get sendMessage
 #https://api.telegram.org/bot5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg/sendMessage?chat_id=309116313&text=Hi Jef
 
-#SetWebHook
-#https://api.telegram.org/bot5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg/setWebhook?url=https://rossmann-telegram-jl-bot.herokuapp.com/
+#SetWebHook (Set url from API from Telegram)
+#https://api.telegram.org/bot5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg/setWebhook?url=https://rossmann-telegram-api-t2bn.onrender.com/
 
 #Delete SetWebHook
 #https://api.telegram.org/bot5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg/deleteWebhook
@@ -130,12 +130,11 @@ For full info, go to the <a href="{}">project github</a>.
 Through this telegram bot you will access sales preditions of Rossmann Stores.
 '''.format(linkedin_link, github_link)
 
-    msg_help = msg_help_g + '''<b><u>Here are you options</u></b>
+    msg_help = msg_help_g + '''<b><u>Here are you options</u></b><br>
 <b><i>start</i></b> : project info
 <b><i>help</i></b> : available commands
-<b><i>top predictions</i></b> : a bar graph with the top 5 predictions
 <b><i>n</i></b> : prediction for a single store, where n is the id of a store
-<b><i>n,n,n,n</i></b> : predictions for a list of stores, where n is the id of a store
+<b><i>n,n,n,n</i></b> : predictions for a list of stores, where n is the id of a store.
 Stay hungry stay foolish!
    '''
 
@@ -177,6 +176,7 @@ def index():
         if type(command) != int:
             command = command.split(',') if command.find(',') >= 0 else command
         print('Comando: {}'.format(command))
+
         # filtered prediction
         if (type(command) == list) | (type(command) == int):
 
