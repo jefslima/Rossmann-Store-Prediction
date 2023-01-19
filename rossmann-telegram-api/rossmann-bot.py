@@ -179,7 +179,6 @@ def index():
 
         # filtered prediction
         if (type(command) == list) | (type(command) == int):
-
             # reshape if there is only one store_id and convert list from string to int
             if type(command) == list:
 
@@ -275,9 +274,8 @@ def index():
         send_message(chat_id, 'Done!', bot)
         return Response('Ok', status=200)
 
-       else:
-
-        return '<h1> Rossmann Telegram BOT</h1>'
+    else:
+           return '<h1> Rossmann Telegram BOT</h1>'
 
 if __name__ == '__main__':
     port = os.environ.get('PORT', 5000)
