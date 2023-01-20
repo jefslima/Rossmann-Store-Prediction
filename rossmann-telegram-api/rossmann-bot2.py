@@ -12,16 +12,16 @@ from flask import Flask, request, Response
 TOKEN ='5452388971:AAG-fo1jfiVmpTAx7J_JtSE8tfhOjway5gQ'
 
 #info about the bot
-#https://api.telegram.org/bot5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg/getMe
+#https://api.telegram.org/bot5452388971:AAG-fo1jfiVmpTAx7J_JtSE8tfhOjway5gQ/getMe
 
 #get updates
-#https://api.telegram.org/5452388971:AAG-fo1jfiVmpTAx7J_JtSE8tfhOjway5gQ/getUpdates
+#https://api.telegram.org/bot5452388971:AAG-fo1jfiVmpTAx7J_JtSE8tfhOjway5gQ/getUpdates
 
 #get sendMessage
-#https://api.telegram.org/bot5608377640:AAFoy15CYMYqayfkR8vhx_2B3Ccw5PJxQlg/sendMessage?chat_id=309116313&text=Hi Jef
+#https://api.telegram.org/bot5452388971:AAG-fo1jfiVmpTAx7J_JtSE8tfhOjway5gQ/sendMessage?chat_id=309116313&text=Hi Jef
 
 #SetWebHook (Set url from API from Telegram)
-#https://api.telegram.org/bot55452388971:AAG-fo1jfiVmpTAx7J_JtSE8tfhOjway5gQ/setWebhook?url=https://rossmann-telegram-api-t2bn.onrender.com/
+#https://api.telegram.org/bot5452388971:AAG-fo1jfiVmpTAx7J_JtSE8tfhOjway5gQ/setWebhook?url=https://rossmann-telegram-api-2.onrender.com
 
 #Delete SetWebHook
 #https://api.telegram.org/bot5452388971:AAG-fo1jfiVmpTAx7J_JtSE8tfhOjway5gQ/deleteWebhook
@@ -87,7 +87,7 @@ For full info, go to the <a href="{}">project github</a>.
 Through this telegram bot you will access sales preditions of Rossmann Stores.
 '''.format(linkedin_link, github_link)
 
-    msg_help = msg_help_g + '''<b><u>Here are you options</u></b><br>
+    msg_help = msg_help_g + '''<b><u>Here are you options</u></b>
 <b><i>start</i></b> : project info
 <b><i>help</i></b> : available commands
 <b><i>n</i></b> : prediction for a single store, where n is the id of a store
@@ -133,9 +133,9 @@ def index():
         if type(command) != int:
             command = command.split(',') if command.find(',') >= 0 else command
         print('Comando: {}'.format(command))
-
         # filtered prediction
         if (type(command) == list) | (type(command) == int):
+            
             # reshape if there is only one store_id and convert list from string to int
             if type(command) == list:
 
