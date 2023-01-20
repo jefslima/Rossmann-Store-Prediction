@@ -133,9 +133,9 @@ def index():
         if type(command) != int:
             command = command.split(',') if command.find(',') >= 0 else command
         print('Comando: {}'.format(command))
-
         # filtered prediction
         if (type(command) == list) | (type(command) == int):
+            
             # reshape if there is only one store_id and convert list from string to int
             if type(command) == list:
 
