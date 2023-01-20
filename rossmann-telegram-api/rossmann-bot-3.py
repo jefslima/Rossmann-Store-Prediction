@@ -112,7 +112,7 @@ For full info, go to the <a href="{}">project github</a>.
 Through this telegram bot you will access sales preditions of Rossmann Stores.
 '''.format(linkedin_link, github_link)
 
-    msg_help = msg_help_g + '''<b><u>Here are you options</u></b><br>
+    msg_help = msg_help_g + '''<b><u>Here are you options</u></b>
 <b><i>start</i></b> : project info
 <b><i>help</i></b> : available commands
 <b><i>n</i></b> : prediction for a single store, where n is the id of a store
